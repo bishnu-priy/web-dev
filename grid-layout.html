@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid-layout</title>
+    <style>
+        .container{
+            display: grid;
+            /*grid-template-columns: 200pxs 100px 400px;*/
+            /*grid-template-columns: 1fr 2fr 3fr;*/
+            grid-template-columns: repeat(4,1fr);
+            grid-gap: 20px;
+            grid-auto-rows: minmax(200px, auto);
+
+        }
+        .items{
+            background-color: lightcoral;
+            border: 2px solid green;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="items">Quos quis dolorum quae delectus tempora deserunt voluptas dolore distinctio similique culpa error suscipit officia optio laborum nihil qui minima cupiditate earum, voluptates, temporibus in assumenda nostrum necessitatibus. Quaerat, pariatur.</div>
+        <div class="items">Box 2</div>
+        <div class="items">Box 3</div>
+        <div class="items">Box 4</div>
+        <div class="items">Box 5</div>
+        <div class="items">Box 6</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+}
+#box1{
+    position:static
+}
+#box2{
+    position: relative;
+    left: 30px;
+    border: 3px solid black
+}
+#box3{
+    position: absolute;
+    top: 80%;
+    right: 0px;
+    left: 200px;
+    right: 100px;
+    border: 3px solid black;
+}
+#box4{
+    position: fixed;
+    border: 3px solid black;
+    width: 300px;
+    bottom: 0px;
+    right: 0px;
+}
+#box5{
+    position: sticky;
+    top: 0px;
+    padding: 5px;
+    border: 3px solid black;
+}
+    
