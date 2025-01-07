@@ -67,3 +67,15 @@ Grid Layout in CSS :-
  3. Absolute - position is related to its closes ancestors.
  4. Fixed - positioned relative to browser
  5. Sticky - position based on user scroll position
+
+Units in CSS :-
+1. px - pixel - its a fixed unit
+2. % - percentage
+
+ram salary (10000) saving (2000) -> 50% -> 1000
+shyam salary (10000) saving (200) -> 50% -> 100
+percentage depends upon their parent element
+
+3. vh (viewport height) & vw (viewport width)
+4. vmax (viewport maximum) & vmin (viewport minimum)
+5. em & rem -> root units of css
